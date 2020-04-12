@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WEB222 - Assignment 3</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/lab3-theme.css" />
+    <style>
+      table { border: 1px solid grey;}
+      td, th { border: 1px solid grey; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="center">
+        <h1>
+          WEB222 - Assignment 3 - Table
+        </h1>
+      </div>
+    </header>
+
+    <nav>
+      <div class="center">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="list.html">List</a></li>
+          <li><a href="table.html">Table</a></li>
+          <li><a href="image.html">Image</a></li>
+          <li><a href="audio.html">Audio</a></li>
+          <li><a href="video.html">Video</a></li>
+          <li><a href="honesty.html">Honesty</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section class="main center">
+        <!-- Start your code here -->
+        <h2>HTML Tables</h2>
+        <table id="table1">
+          <caption><h3>Table 1. My Weekly Schedule</h3></caption>
+          <tr>
+            <th>Program</th>
+            <th>Courses enrolled</th>
+            <th>Scedule</th>
+            <th>Total hours</th>
+          </tr>
+
+          <tr>
+            <td rowspan = "8">Comuputer Programmer (CPD)</td>
+            <td rowspan = "2">Intro to Database Systems (DBS211)</td>
+            <td>Mon 1:30PM - 3:15PM</td>
+            <td rowspan = "2">3.5 hours</td>
+          </tr>
+          <tr>
+            <td>Wed 10:45AM - 12:30PM</td>
+          </tr>
+          <tr>
+            <td rowspan = "2">Object Oriented Programming (OOP244)</td>
+            <td>Mon 8:00AM - 9:45AM</td>
+            <td rowspan = "2">3.5 hours</td>
+          </tr>
+          <tr>
+            <td>Wed 12:35PM - 2:20PM</td>
+          </tr>
+          <tr>
+            <td>Exploring Environ. Relations (NAT111)</td>
+            <td>Mon 10:45AM - 1:25PM</td>
+            <td>3 hours</td>
+          </tr>
+          <tr>
+            <td rowspan = "2">Web Programming Principles (WEB222)</td>
+            <td>Tue 1:30PM - 3:15PM</td>
+            <td rowspan = "2">3.5 hours</td>
+          </tr>
+          <tr>
+            <td>Thur 9:50AM - 11:35AM</td>
+          </tr>
+          <tr>
+            <td>Data Communications Fund. (DCF255)</td>
+            <td>Thur 11:40AM - 2:20PM</td>
+            <td>3 hours</td>
+          </tr>
+          <tr>
+            <th>Total hours</th>
+            <td colspan="3" style="text-align: center;">16.5 hours</td>
+          </tr>
+        </table>
+        <br />
+
+        <table id="table2">
+          <caption><h3>Table 2. Favorite Songs' List of My Family</h3></caption>
+          <thead>
+            <tr>
+              <th>Song's Name</th>
+              <th>Singer</th>
+              <th>Category</th>
+              <th>YouTube Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Baby Shark</td>
+              <td>Eli Kids</td>
+              <td>Children</td>
+              <td><a href="https://www.youtube.com/watch?v=pUbmOA1r1Nc">https://www.youtube.com/watch?v=pUbmOA1r1Nc</a></td>
+            </tr>
+            <tr>
+              <td>Sun Above the Cloud</td>
+              <td>Praise Music Ministries</td>
+              <td>Christian</td>
+              <td><a href="https://www.youtube.com/watch?v=szDR9OjzaQQ&list=RDszDR9OjzaQQ&start_radio=1">https://www.youtube.com/watch?v=szDR9OjzaQQ&list=RDszDR9OjzaQQ&start_radio=1</a></td>
+            </tr>
+            <tr>
+              <td>Twinkle, Twinkle, Little Star</td>
+              <td>LooLoo kids</td>
+              <td>Children</td>
+              <td><a href="https://www.youtube.com/watch?v=abJ3n6EYHxg&list=RDabJ3n6EYHxg&start_radio=1">https://www.youtube.com/watch?v=abJ3n6EYHxg&list=RDabJ3n6EYHxg&start_radio=1</a></td>
+            </tr>
+            <tr>
+              <td>Wheels on the Bus</td>
+              <td>CoComelon</td>
+              <td>Children</td>
+              <td><a href="https://www.youtube.com/watch?v=TJmTHuuYx3k">https://www.youtube.com/watch?v=TJmTHuuYx3k</a></td>
+            </tr>
+            <tr>
+              <td>Crazy for love</td>
+              <td>René Liu</td>
+              <td>Popular</td>
+              <td><a href="https://www.youtube.com/watch?v=cYchjzfQ2RU">https://www.youtube.com/watch?v=cYchjzfQ2RU</a></td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th>Summary</th>
+              <th colspan="3">Children: 3, Popular: 1, Christian: 1</th>
+            </tr>            
+          </tfoot>
+        </table>
+
+        <br />
+
+        <table id="table3">
+          <caption><h3>Table 3. Users' Information</h3></caption>
+          <thead>
+             <tr>
+                 <th>First Name</th>
+                 <th>Last Name</th>
+                 <th>Age</th>
+                 <th>Email</th>
+             </tr>    
+          </thead>
+       </table>
+        <!-- End your code here  -->
+      </section>
+    </main>
+
+    <br />
+
+    <footer>
+      <div class="center">
+        &copy; 2020 Jingmin Zhou (Jessica)
+      </div>
+    </footer>
+
+    <script src="js/table.js"></script>
+  </body>
+</html>
